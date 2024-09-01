@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        background: #c8e6c9;
+      }
+      #wrap {
+        width: 1000px;
+        height: 900px;
+        margin: 0 auto; /*위 아래 마진=0 , 좌우 마진=자동 가운데*/
+        font-size: 40px;
+        color: #fff;
+        text-align: center;
+        text-transform: uppercase; /*대문자*/
+      }
+      #header {
+        width: 1000px;
+        height: 100px;
+        line-height: 100px; /*text가 한줄 일때 (블럭div height값)과 같은 값을 주면 가운데에 위치*/
+        background: #2e7d32;
+      }
+      #nav {
+        width: 1000px;
+        height: 100px;
+        line-height: 100px;
+        background: #388e3c;
+      }
+      #side {
+        float: left; /*블럭div를 인라인처럼 왼쪽으로 붙여라*/
+        width: 300px;
+        height: 600px;
+        line-height: 600px;
+        background: #43a047;
+      }
+      #contents {
+        float: left;
+        width: 700px;
+        height: 600px;
+        line-height: 600px;
+        background: #4caf50;
+      }
+      #footer {
+        float: left;
+        width: 1000px;
+        height: 100px;
+        line-height: 100px;
+        background: #66bb6a;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="wrap">
+      <div id="header">header</div>
+      <div id="nav">nav</div>
+      <div id="side">side</div>
+      <div id="contents">contents</div>
+      <div id="footer">footer</div>
+    </div>
+  </body>
+</html>
